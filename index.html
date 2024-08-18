@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: 'Adobe Caslon Pro', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            background-image: url('');
+            background-size: cover; /* Ensures the image covers the entire background */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            background-position: center; /* Centers the image */
+            background-image: url('https://img.freepik.com/free-vector/blue-white-gradient-abstract-background_53876-62620.jpg?size=626&ext=jpg&ga=GA1.1.809450633.1707898708&semt=ais_hybrid');
+        }
+        img{
+            width: 200px;
+            height:200px;
+            background-origin: 50%;
+            box-shadow: 0 5px 15px rgba(209,6,6,0.2);
+            object-fit:cover;
+        }
+
+        .crack-link {
+            position: absolute; /* Keeps the link in place even when scrolling */
+            top: 60px; /* Distance from the top of the page */
+            right: 80px; /* Distance from the right side of the page */
+            z-index: 1000; /* Ensures it stays on top of other content */
+            font-size: 20px; /* Adjust font size */
+            color: #1a031836; /* Link color */
+             /* Remove underline from the link */
+            /* Padding around the link */
+             /* Background color for visibility */
+             /* Rounded corners for the link */
+             /* Optional shadow for depth */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .profile {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .profile h1 {
+            font-size: 48px;
+            color: #00A8FF;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #555555;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        .details,
+        .about-me,
+        .side-profile {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+
+        .details h2,
+        .about-me h2,
+        .side-profile h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        .details p,
+        .about-me p,
+        .side-profile p {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 10px;
+        }
+
+        .social-links a img {
+            width: 24px;
+            height: 24px;
+            margin-right: 30px;
+        }
+
+        .project-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #b833ff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none;
+}
+
+        .side-profile {
+            background-color: #FF6F61;
+            color: #fff;
+            text-align: center;
+        }
+
+        .side-profile img {
+            width: 150px;
+            height:150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .side-profile h2 {
+            font-size: 22px;
+            margin-bottom: 10px;
+        }
+
+        .side-profile p {
+            font-size: 14px;
+            color: #fff;
+        }
+
+        .side-profile .social-links a img {
+            filter: invert(1);
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <h1>Welcome to my Profile</h1>
+            <p class="subtitle"><h2>I'm a Data Analyst</h2></p>
+        </div>
+
+        <div class="crack-link">
+            <a href="home.html">For More..</a>
+        </div>
+        <div class="content">
+            <div class="details">
+                <h2>Details</h2>
+                <p><strong>Name:</strong>Sasiprabha K R</p>
+                <p><strong>Degree:</strong>Btech.Artificial intelligence and data science.</p>
+                <p><strong>Age:</strong> 20 years</p>
+                <p><strong>Location:</strong>Mecheri,Salem district.</p>
+                <p><strong>Email:</strong>sasibtech2923@gmail.com</p>
+            </div>
+            <div class="about-me">
+                <h2>About me</h2>
+                <p>I am an all-round data analyst with a strong ability to dive deep into data, uncover meaningful patterns, and deliver insights that optimize performance and drive results.I ensure that every analysis provide valuable support for decision-making processes.</p>
+                
+                <button class="project-button" onclick="window.location.href='https://www.geeksforgeeks.org/data-analyst-projects/'">For Project!!</button>
+
+            </div>
+            <div class="side-profile">
+                <img src="https://media.gettyimages.com/id/1500461725/photo/businesswoman-presenting-in-a-modern-office-meeting-room.jpg?s=612x612&w=0&k=20&c=jW6nRrOeB03NolD5BlLtVSQVrzh5xulhQ91ds7zNTjE="
+                <h3>HELLO, I'M SASI</h3>
+                <p>I am a versatile data analyst with the expertise to approach data-driven projects from initial analysis through to actionable insights and implementation.</p>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+
+                    <a href="https://twitter.com/login" target="_blank">Twitter</a>
+                    
+                    <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
